@@ -6,7 +6,7 @@
 
 ## How to Get Started with the Model
 
-### Use it in combination with paddleocr. Define any schema and hopefully you get the json. Needs some more work but it still works!
+### Use it in combination with paddleocr. Define any schema and hopefully you get the json. Needs some more work but it still works! Download gguf from https://huggingface.co/MayankLad31/invoice_schema
 
 ````
 from llama_cpp import Llama
