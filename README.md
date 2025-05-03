@@ -21,10 +21,20 @@ for idx in range(len(result)):
         
 llm = Llama(model_path="inv.Q8_0.gguf",n_ctx=2048)
 
+import re
+
+def extract_largest_json_block(text):
+    pattern = r"```json\s*(.*?)\s*```"
+    blocks = re.findall(pattern, text, re.DOTALL)
+    if not blocks:
+        return None
+    return max(blocks, key=len)
+
+
 def extract_xml_answer(text: str) -> str:
     answer = text.split("<answer>")[-1]
     answer = answer.split("</answer>")[0]
-    return answer.strip()
+    return extract_largest_json_block(answer.strip())
 
 messages = [
     {"role": "system", "content": """Respond in the following format:
