@@ -1,12 +1,12 @@
 # invoice_grpo
 
-# Model Description
+## Model Description
 
-## Took a small 1.5B model fine-tuned with RL (GRPO on Qwen2.5-Coder) and asked it to extract structured JSON from OCR text based on any user-defined schema. You can find the model and the gguf.(100% local)
+### Took a small 1.5B model fine-tuned with RL (GRPO on Qwen2.5-Coder) and asked it to extract structured JSON from OCR text based on any user-defined schema. You can find the model and the gguf.(100% local)
 
-# How to Get Started with the Model
+## How to Get Started with the Model
 
-## Use it in combination with paddleocr. Define any schema and hopefully you get the json. Needs some more work but it still works!
+### Use it in combination with paddleocr. Define any schema and hopefully you get the json. Needs some more work but it still works!
 
 ````
 from llama_cpp import Llama
