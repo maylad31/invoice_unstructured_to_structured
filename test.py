@@ -34,7 +34,7 @@ messages = [
 ```json 
 ```
 </answer>"""},
-    {"role": "user", "content": f"{text}+""""
+    {"role": "user", "content": f"{text}\n"+"""
 
 Extract the data in JSON format using the schema: 
 
@@ -67,3 +67,5 @@ output = llm.create_chat_completion(messages,max_tokens=1000)
 print(extract_xml_answer(output['choices'][0]['message']['content']))
 llm._sampler.close()
 llm.close()
+
+
