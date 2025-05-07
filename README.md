@@ -45,7 +45,7 @@ messages = [
 ```json 
 ```
 </answer>"""},
-    {"role": "user", "content": f"{text}+""""
+    {"role": "user", "content": f"{text}"+"""
 
 Extract the data in JSON format using the schema: 
 
