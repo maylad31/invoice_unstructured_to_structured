@@ -1,4 +1,4 @@
-# invoice_grpo  (50+ downloads on huggingface, people are interested in local llms)
+# invoice_grpo  (50+ downloads on huggingface for this simple model, people are interested in local llms)
 
 ## Model Description
 
