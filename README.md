@@ -80,4 +80,6 @@ llm._sampler.close()
 llm.close()
 ````
 
-Connect with me on linkedin if you have an intersting project/common interests. https://www.linkedin.com/in/mayankladdha31/
+Connect with me on linkedin if you have an intersting project/common interests. Please star if you like this repo in case I make changes.
+
+https://www.linkedin.com/in/mayankladdha31/
