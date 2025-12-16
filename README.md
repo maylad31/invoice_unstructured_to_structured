@@ -1,4 +1,4 @@
-# 200+ downloads(total) on huggingface for this simple model, people are interested in local llms
+# 700+ downloads(total) on huggingface for this simple model, people are interested in local llms
 
 ## Model Description
 
